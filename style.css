@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chewy&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chewy&family=Playwrite+MX+Guides&family=Special+Gothic+Expanded+One&display=swap');
+/*seleção global*/
+*{
+    
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+h1 {
+    color: blueviolet;
+}
+
+
+h1,p {
+    font-size: small;}
+
+#vermelho {
+    color: blue;
+}
+
+#rosa {
+    color: black;
+}
+
+.text{
+    font-weight: bold;
+}
