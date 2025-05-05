@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cartao{
+    background-color: bisque;
+    padding: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+    color: #f0f0f0;
+}
+
+header img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+footer a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#infocontato{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+
+}
+
+.item{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+}
